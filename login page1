@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="formbox">
+    <h2>Login here</h2>
+    <form>
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username">
+        </div>
+        <div class="input-group">
+            <label for="password">password</label>
+            <input type="password" id="password">
+        </div>
+        
+            <button type="submit">Sumbit &#9755;</button>
+        
+    </form>
+
+    <p>Login with social media account</p>
+   <div class="social">
+       <img src="google.png" alt="">
+       <img src="facebook.jpg" alt="">
+       <img src="twitter.png" alt="">
+
+   </div>
+
+</div>
+   
+
+
+    
+</body>
+</html>
+
+#### css code 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("login.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+ 
+.formbox{
+    width:350px;
+    box-shadow: 0 0 10px 0 #000; 
+    margin: 100px auto;
+    background:transparent;
+    padding: 50px 25px;
+    
+}
+
+input{
+    padding: 20px;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 20px;
+    color: azure;
+    
+   
+    
+}
+
+.input-group{
+    margin: 20px auto;
+    position: relative;
+   
+    
+}
+
+label{
+    position:absolute;
+    top:-10px;
+    left:20px;
+    background:rgba(0,0,0,.5) ;
+    padding: 0 5px;
+    color: rgb(114, 180, 133);
+}
+ 
+button{
+    padding:10px 20px;
+    border:none;
+    background-color: rgba(0,0,0,.5);
+    color:#fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: green;
+}
+
+h2{
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 10px 0 #000;
+    margin:-80px auto 30px;
+    height: 40px;
+    padding-top: 16px;
+    border-radius: 30px;
+    background-color:rgba(0,0,0,.5);
+    color: rgb(210, 188, 164);
+    border: 2px solid black;
+}
+
+p{
+    text-align: center;
+    margin: 30px auto;
+    background: rgba(0,0,0,.5);
+    color: aquamarine;
+}
+
+.social img{
+        width:40px;
+        margin: 0 6px;
+        cursor: pointer;
+}
+
+.social{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
